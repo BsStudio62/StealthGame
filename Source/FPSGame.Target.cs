@@ -9,5 +9,10 @@ public class FPSGameTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		ExtraModuleNames.Add("FPSGame");
-	}
+        // Update build settings
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+
+        // Update include order version
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+    }
 }
