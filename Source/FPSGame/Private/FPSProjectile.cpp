@@ -30,7 +30,9 @@ AFPSProjectile::AFPSProjectile()
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
 
-	SetReplicates(true);
+	bReplicates = true;
+	// Remove UE5
+	//SetReplicates(true);
 	SetReplicateMovement(true);
 }
 
